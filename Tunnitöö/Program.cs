@@ -19,7 +19,7 @@ namespace Tunnitöö
 
             // Client
 
-            Console.WriteLine("Please enter your first name!");
+            Console.WriteLine("Please enter your first name! ");
             string firstName = Console.ReadLine();
 
             Console.WriteLine("Hi, " + firstName + "! Please enter your last name:");
