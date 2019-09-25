@@ -24,7 +24,7 @@ namespace FavouriteColor
                 people.Add(person);
             }
 
-            Console.WriteLine("Hi! Please enter your last name:");
+            Console.WriteLine("Hi! Please enter your last name: ");
             string lastName = Console.ReadLine();
 
             Person someone = people.FirstOrDefault(x => x.LastName == lastName);
