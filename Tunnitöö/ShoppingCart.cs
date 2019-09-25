@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tunnitöö
 {
-    class ShoppingCart
+    public class ShoppingCart
     {
         public List<Food> Items { get; set; }
 

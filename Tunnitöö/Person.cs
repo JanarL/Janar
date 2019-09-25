@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Tunnitöö
 {
-    class Person
+    public class Person
     {
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
 
         public ShoppingCart ShoppingCart { get; set; }
+
+        public Color FavouriteColor { get; set; }
 
         public Person(string firstName, string lastName)
         {
@@ -25,5 +27,17 @@ namespace Tunnitöö
             return FirstName + " " + LastName;
         }
 
+    }
+    public enum Color
+    {
+        Unknown,
+        Red,
+        Orange,
+        Yellow,
+        Green,
+        Blue,
+        Violet,
+        White,
+        Black
     }
 }

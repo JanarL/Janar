@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tunnitöö
 {
-    class Food
+    public class Food
     {
         public string Name { get; set; }
         public double Price { get; set; }
